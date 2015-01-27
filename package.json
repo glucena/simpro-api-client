@@ -1,0 +1,23 @@
+{
+  "name": "SIMProAPIClient",
+  "version": "1.0.0",
+  "description": "SOAP client for SimPRO API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --ui bdd --reporter list -- test/*.js"
+  },
+  "keywords": [
+    "SIMPro",
+    "SOAP",
+    "client"
+  ],
+  "author": "Gabriel Lucena <glucena@wtelecom.es>",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "soap": "^0.6.1"
+  }
+}
