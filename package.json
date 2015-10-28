@@ -2,7 +2,7 @@
   "name": "SIMProAPIClient",
   "version": "1.0.0",
   "description": "SOAP client for SimPRO API",
-  "main": "index.js",
+  "main": "./lib/simpro-api-client.js",
   "scripts": {
     "test": "mocha --ui bdd --reporter list -- test/*.js"
   },
